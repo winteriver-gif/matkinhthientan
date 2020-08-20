@@ -1,0 +1,99 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*header*/
+header > p{
+    font-size: 42px;
+    text-align: center;
+    color:rgb(135, 146, 250);
+    text-shadow: lightsteelblue 3px 3px;
+    display:inline-block;
+
+}
+header > h6{
+    position: absolute;
+    display: inline-block;
+    top:30px;
+    right: 0;
+    font-size: 30px;
+    color:rgb(135,146,200);
+}
+
+/*nav*/
+nav{
+    background-color: lightgray;
+    border-radius: 5px 5px 5px 5px;
+}
+
+ul.main_nav{
+    list-style-type: none;
+    padding:0;
+    margin:0;
+    display:flex;
+}
+ul.main_nav > li{
+    min-width: 150px;
+    text-align: center;
+    vertical-align: none;
+    align-items: center;
+}
+ul.main_nav > li >  a {
+    text-decoration: none;
+    display:block;
+    padding:15px 20px;
+    color:#6699ff;
+    align-items: center;
+}
+/*submenu*/
+.sub_content {
+    display: none;
+    position: absolute;
+    background-color: lightgray;
+    list-style-type: none;
+    color:#6699ff;  
+    text-align: center;
+    align-items: center;
+}
+.sub_menu > ul > li > a{
+    text-decoration: none;
+    text-align: center;
+    align-items: center;
+}
+.sub_content > li {
+    text-align: center;
+    align-items: center;
+}
+
+.sub_menu:hover .sub_content {
+    display: block;
+    text-align: center;
+}
+/*body*/
+section.sunglasses{
+    display: flex;
+}
+div.sunglass{
+    width: 25%;
+    background-color:orange;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 1%;
+}
+div.sunglass > img{
+    width: 100%;
+}
+p.tag{
+    text-align: center;
+    font-size: 40px;
+}
+
+/*footer*/
+footer{
+    background-color:lightcoral;
+}
+footer > div{
+    display: inline-block;
+
+}
